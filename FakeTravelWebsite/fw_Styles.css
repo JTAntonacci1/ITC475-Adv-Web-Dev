@@ -9,11 +9,45 @@ header {
     header img#logoimg {
         height: 180px;
     }
-
-hr.solid {
-    margin-top: -30px;
-    border-top: 18px solid #d3d3d3;
+    /* Styles for the Reactjs portion and welcome bar/grey bar*/
+:root {
+    --main-bg-color: #FFFFFF; /* White */
+    --secondary-bg-color: #000000; /* Black */
+    --highlight-color: #ADD8E6; /* Light Blue*/
+    --header-separator-color: #D3D3D3; /*>Light Grey*/
+    --main-text-color: #000000; /* Black */
+    --secondary-text-color: #FFFFFF; /* White*/
+    --hover-text-color: #FFA500; /* Orange */
+    --savings-color: #00AA00; /* Medium Green*/
 }
+
+#WelcomeBar {
+    background-color: var(--header-separator-color);
+    width: 100%;
+    height: 30px;
+    margin-top: -30px;
+
+}
+#SunMoonDisplay {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+#Welcome {
+    padding: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+#WelcomeTime {
+    float: right;
+    font-size: 20px;
+}
+
+
 
 footer {
     background-color: #000000;
