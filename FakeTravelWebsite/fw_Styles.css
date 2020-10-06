@@ -265,3 +265,21 @@ nav {
         display: none;
     }
 }
+
+button.link {
+    background: none;
+    border: none;
+    line-height: 2em;
+    font-size: 15px;
+    text-decoration: underline;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.Events {
+    line-height: 2em;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: auto
+}

@@ -4,15 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <link href="fw_Styles.css" rel="stylesheet" />
-    <title>Video store product page</title>
+    <title>Mega Travel Site</title>
 </head>
 
 <body>
     <header>
         <img src="megatravellogo.png" alt="Travel Logo" id="logoimg" />
     </header>
-    <hr class="solid" />
+    <div id="WelcomeBar"></div>
     <nav>
+        <div id="SunMoonDisplay"></div>
         <ul class="nav">
             <li><a href="mt_homepage.html">Home</a></li>
             <li><a href="mt_aboutpage.html">About Us</a></li>
@@ -25,7 +26,31 @@
             We would love to know more about your travel plans. Please fill out this contact form to get in touch with a travel agent.
         </p>
     </section>
+
+    <section class="Events">
+
+        <button id="NewZ" class="link">Learn more about New Zealand</button>
+        <button id="Mald" class="link">Learn more about Maldives, South Asia</button>
+        <button id="Venice" class="link">Learn more about Venice, Italy</button>
+        <button id="Cancun" class="link">Learn more about Cancun</button>
+
+        <br />
+        <h2>Select Loaction Activites Below:</h2>
+        <br />
+        <div id="selectLocation"></div>
+
+        <div id="ThingsToDo"></div>
+
+    </section>
+
+
     <footer>Copyright Protected. All rights reserved. <br /> <br /> MEGA TRAVELS <br /> mega@travels.com</footer>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="Greeting.js"></script>
+    <script src="SunMoonDisplay.js"></script>
+    <script src="Events.js"></script>
+
 </body>
 
 </html>
