@@ -136,7 +136,7 @@ nav {
     }
 
         nav a:hover {
-            color: ##ffa500;
+            color: #ffa500;
         }
 
 
@@ -258,7 +258,7 @@ nav {
         display: inline-block;
     }
 }
-}
+
 
 @media only print {
     nav {
@@ -266,20 +266,11 @@ nav {
     }
 }
 
-button.link {
-    background: none;
-    border: none;
-    line-height: 2em;
-    font-size: 15px;
-    text-decoration: underline;
-    display: block;
-    margin-left: 10px;
-    margin-right: auto;
-}
 
-.Events {
+#activities {
     line-height: 2em;
     font-size: 15px;
     margin-left: 20px;
     margin-right: auto
 }
+
