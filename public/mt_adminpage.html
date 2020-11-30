@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="fw_Styles.css" rel="stylesheet" />
+    <title>Mega Travel Site</title>
+</head>
+
+<body>
+    <header>
+        <img src="megatravellogo.png" alt="Travel Logo" id="logoimg" />
+    </header>
+    <div id="WelcomeBar"></div>
+    <nav>
+        <div id="SunMoonDisplay"></div>
+        <ul class="nav">
+            <li><a href="mt_homepage.html">Home</a></li>
+            <li><a href="mt_aboutpage.html">About Us</a></li>
+            <li><a href="mt_contactclient.html">Contact An Agent</a></li>
+            <li><a href="mt_adminpage.html">Admin</a></li>
+        </ul>
+    </nav>
+    <section class="intro">
+        <h1>For Admin Use Only</h1>
+        <p>
+            Pull data from database: 
+
+            <div id="admins"></div>
+        </p>
+    </section>
+    <footer>Copyright Protected. All rights reserved. <br /> <br /> MEGA TRAVELS <br /> mega@travels.com</footer>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="Greeting.js"></script>
+    <script src="SunMoonDisplay.js"></script>
+    <script src="components/adminrun.js"></script>
+</body>
+
+</html>
