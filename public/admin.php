@@ -22,10 +22,10 @@ echo <<<_START
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<title>Mega Travel - Admin Portal</title>
 				<link href="default.css" rel="stylesheet" />
-
 				<script crossorigin src="https://unpkg.com/react/umd/react.development.js"></script>
 				<script crossorigin src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-				<script src="Components/Welcome.js"></script>
+				<script src="Greeting.js"></script>
+    				<script src="SunMoonDisplay.js"></script>
 			</head>
 			<body>
 				<div class="wrapper">
