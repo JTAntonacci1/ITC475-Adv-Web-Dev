@@ -64,7 +64,6 @@ function submitData($conn,$sql){
     }
 }
 
-submitData($conn, $sql);
 
 echo <<<_START
 		<html>
