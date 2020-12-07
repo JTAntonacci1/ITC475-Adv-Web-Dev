@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="utf-8" />
+    <link href="game_styles.css" rel="stylesheet" />
+    <title>Jumping Game</title>
+
+<section>
+    <div id="header"></div>
+</section>
+<nav>
+    <ul class="nav">
+        <li><a href="game_home.html">Play</a></li>
+        <li><a href="instruction_page.html">Instructions</a></li>
+        <li><a href="high_scores.php">High Scores</a></li>
+    </ul>
+</nav>
+</head>
+<body>
+    <canvas id="game" width="640" height="400"></canvas>
+    <form id="scoreForm" action="addScore.php" method="post">
+        <input type="hidden" id="Score" name="Score" value="" />
+    </form>
+    <br />
+    <footer>Copyright Protected. All rights reserved. <br /> <br /> Jumping Game <br /> game@jumping.com</footer>
+</body>
+<script src="main.js"></script>
+
+</html>
