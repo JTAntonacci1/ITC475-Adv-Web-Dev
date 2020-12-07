@@ -1,0 +1,50 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    padding: 80px;
+    background-color: maroon;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: arial, san-serif font-size: 30px;
+    text-align: left;
+}
+
+/* Navigation Bar */
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    display: block;
+}
